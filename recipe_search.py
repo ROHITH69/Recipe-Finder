@@ -1,8 +1,7 @@
-def find_recipes(recipes, ingredients):
-    matching = []
-
-    for recipe in recipes:
-        if all(ing.strip() in map(str.lower, recipe["ingredients"]) for ing in ingredients):
-            matching.append(recipe)
-
-    return matching
+def search_recipes(recipes, keyword):
+    keyword = keyword.lower()
+    return [
+        recipe for recipe in recipes
+        if keyword in recipe["name"].lower() or
+           any(keyword in ingredient.lower() for ingredient in recipe["ingredients"])
+    ]
