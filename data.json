@@ -1,20 +1,17 @@
 [
   {
     "name": "Tomato Pasta",
-    "cook_time": 25,
     "ingredients": ["pasta", "tomato", "garlic", "onion", "salt"],
-    "instructions": "Boil pasta. Sauté garlic and onion. Add tomatoes. Mix with pasta."
+    "instructions": "Boil pasta. Cook tomato with garlic and onion. Mix with pasta."
   },
   {
-    "name": "Vegetable Stir Fry",
-    "cook_time": 15,
-    "ingredients": ["broccoli", "carrot", "capsicum", "soy sauce", "salt"],
-    "instructions": "Stir-fry all vegetables. Add soy sauce and cook for 5 mins."
+    "name": "Veg Fried Rice",
+    "ingredients": ["rice", "carrot", "peas", "soy sauce", "onion"],
+    "instructions": "Stir-fry vegetables. Add rice and soy sauce. Mix well."
   },
   {
     "name": "Garlic Bread",
-    "cook_time": 10,
-    "ingredients": ["bread", "butter", "garlic", "parsley"],
-    "instructions": "Mix butter with garlic and parsley. Spread on bread and toast."
+    "ingredients": ["bread", "garlic", "butter", "parsley"],
+    "instructions": "Mix butter and garlic. Spread on bread and toast it."
   }
 ]
